@@ -1,0 +1,2 @@
+# Tugas-Sistem-Operasi-Membuat-program-sederhana-Menggunakan-Pthread
+Program ini mensimulasikan sistem transaksi bank menggunakan multithreading. Terdapat tiga thread yang bekerja pada satu objek rekening yang sama, yaitu thread deposit, thread withdraw, dan thread transfer keluar. Karena ketiga thread mengakses variabel saldo yang sama, diperlukan mekanisme sinkronisasi untuk mencegah race condition.
